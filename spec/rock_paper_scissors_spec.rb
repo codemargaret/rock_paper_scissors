@@ -4,8 +4,8 @@ require('rock_paper_scissors')
 
   describe('RPS#wins?') do
   it("returns true if rock is the first argument and scissors is the second") do
-    example = RPS.new()
-    expect(example.wins?("rock", "scissors")).to(eq(true))
+    game = RPS.new()
+    expect(game.wins?("rock", "scissors")).to(eq(true))
   end
 
   it("returns true if scissors is the first argument and paper is the second") do
